@@ -2,6 +2,8 @@ module:
   hugoVersion:
     min: "0.142.0"
     extended: true
+  imports:
+  - path: github.com/hugo-toha/toha/v4
   mounts:
   - source: content
     target: content
